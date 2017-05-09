@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />  
+	<package name="data-struts" namespace="/" extends="json-default" strict-method-invocation="false">	
+
+		<global-results>
+			<!-- 当返回login视图名时，转入登录页面login.jsp -->
+			
+			<result name="index">/WEB-INF/content/index.jsp</result>
+		</global-results>
+	</package>
+	<!-- 基础管理 -->
+	<include file="struts-config/struts-base.xml"></include>
+	
+	
+	
+	<!-- 支持name斜杠 -->
+	<constant name="struts.enable.SlashesInActionNames" value="true"/>
+</struts>

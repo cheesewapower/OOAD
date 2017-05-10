@@ -6,13 +6,15 @@
 *****************************************************************************/
 package com.datamarket.action;
 
-import java.util.Map; 
+import java.util.Map;
+
 import javax.annotation.Resource;
+
 import org.apache.struts2.interceptor.ApplicationAware;
 import org.apache.struts2.interceptor.RequestAware;
 import org.apache.struts2.interceptor.SessionAware;
 
-
+import com.datamarket.service.GuitarService;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 
@@ -48,8 +50,8 @@ SessionAware, ApplicationAware, ModelDriven<T> {
 	//Service注入
 	
 	
-	//@Resource(name="bidService")
-	//protected BidService bidService;
+	@Resource(name="guitarService")
+	protected GuitarService guitarService;
 
 	@Override 
 	public T getModel() {

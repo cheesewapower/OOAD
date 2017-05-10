@@ -2,34 +2,12 @@
 <%@taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-	
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<%@include file="/public/website-head.jspf"%>
-    <title>查询吉他</title>
-    <script type="text/javascript">
-     $(document).ready(function(){
-    	 //搜索
-    	    $("#searchBtn").click(function(){
-    	    	$.ajax({	
-    	    		url:'${pageContext.request.contextPath}/base/guitarAction_search.action',
-    				type:'POST',
-    				data:{	},
-    				success:function(data){    
-    					console.log(data);
-    				},
-    			})
-    	    	
-    	    })	
-     
-     
-     	});
-    
-     	
-    </script>
+    <title>结果</title>
 </head>
 <body>
-    <form  role="form"  method="post">
+    <form  role="form" action="search_s" method="post">
         <div>
             <label>builder</label>
         </div>
@@ -50,6 +28,6 @@
             <label>topWood</label>
         </div>
         <input type="text" name="topWood">
+            <button type="submit">查询</button>
     </form>
-     <button type="submit" id="searchBtn">查询</button>
 </body>

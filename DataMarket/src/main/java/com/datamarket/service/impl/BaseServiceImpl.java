@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import com.datamarket.dao.BaseDao;
+import com.datamarket.dao.GuitarDao;
 import com.datamarket.service.BaseService;
 
 
@@ -28,6 +29,7 @@ public class BaseServiceImpl<T> implements BaseService<T> {
 	@SuppressWarnings("rawtypes")
 	protected BaseDao baseDao; 
 	
+	
 	@PostConstruct   
 	public void init() throws Exception{
 		
@@ -43,7 +45,9 @@ public class BaseServiceImpl<T> implements BaseService<T> {
 	
 	//@Resource(name="bidDao")
 	//protected BidDao bidDao;
-
+	//注入dao
+	@Resource(name="guitarDao") 
+	protected GuitarDao guitarDao; 
 	
 	
 	

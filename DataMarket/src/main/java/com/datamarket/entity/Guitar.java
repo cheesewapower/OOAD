@@ -13,26 +13,29 @@ public class Guitar implements java.io.Serializable {
 	
 	private Integer id;
 	private String serialNumber;
+	
 	private String builder;
-	private String guitarModel;
+	private String model;
 	private String type;
 	private String backWood;
 	private String topWood;
 	
 	private double price;
     public Guitar(String serialNumber, String builder,String model,String type,
-    		      String backWood,String topWood,double price){
+    		      String backWood,String topWood,double price,int id ){
     	 this.backWood=backWood;
     	 this.builder=builder;
     	 this.id=id;
-    	 this.guitarModel=guitarModel;
+    	 this.model=model;
     	 this.price=price;
     	 this.serialNumber=serialNumber;
     	 this.topWood=topWood;
     	 this.type=type;
     	
     }
-
+    public Guitar(){
+    	
+    }
 	
     @Id
     @Column(name="id",unique=true,nullable=false)
@@ -93,15 +96,17 @@ public class Guitar implements java.io.Serializable {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
 	@Column(name="guitar_model",nullable=false,length=32)
-	public String getGuitarModel() {
-		return guitarModel;
+	public String getModel() {
+		return model;
 	}
 
 
-	public void setGuitarModel(String guitarModel) {
-		this.guitarModel = guitarModel;
+	public void setModel(String model) {
+		this.model = model;
 	}
+	
 	
 	
 	

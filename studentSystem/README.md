@@ -2,13 +2,13 @@
 选课系统
 
 ## 项目结构
-![项目结构截图](Image/project.png)
+![分层结构图]()
 
 ## ER图
-![ER图](Image/er.png)
+![https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/er.JPG]
 
 ## 系统领域类图
-![ER图](Image/diagram.png)
+![https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/%E7%B3%BB%E7%BB%9F%E9%A2%86%E5%9F%9F%E7%B1%BB%E5%9B%BE.png]
 
 
 ## 登录

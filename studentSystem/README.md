@@ -5,10 +5,11 @@
 ![分层结构图]()
 
 ## ER图
-![https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/er.JPG]
+![](images/er.JPG)
 
 ## 系统领域类图
-![https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/%E7%B3%BB%E7%BB%9F%E9%A2%86%E5%9F%9F%E7%B1%BB%E5%9B%BE.png]
+![](images/%E7%B3%BB%E7%BB%9F%E9%A2%86%E5%9F%9F%E7%B1%BB%E5%9B%BE.png)
+
 
 
 ## 登录

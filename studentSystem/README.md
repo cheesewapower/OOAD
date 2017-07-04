@@ -16,37 +16,26 @@
 ![登录界面截图](Image/login.png)
 
 ## 选课界面
-![选课界面截图](Image/section.png)
+![选课界面截图](https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/%E9%80%89%E8%AF%BE1.JPG)
 
 ## 选课提示(可提示是否已选，是否在培养计划内)
-![选课提示](Image/clickSection.png)
-![选课提示](Image/sectionInfo.png)
+![选课提示](https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/%E9%80%89%E8%AF%BE2.JPG)
+![选课提示](https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/%E9%80%89%E8%AF%BE3.JPG)
 
-## 查看已选同学
-![添加提示截图](Image/showSectioned.png)
+
 
 ## 成绩查询
-![成绩查询截图](Image/gradle.png)
+![成绩查询截图](https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2.JPG)
 
-## 教学计划展示
-![教学计划展示](Image/planOfStudy.png)
+
 
 ## 教师管理
-![教师管理截图](Image/teacher.png)
+![教师管理截图](https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/%E6%95%99%E5%B8%88%E7%AE%A1%E7%90%86.JPG)
 
-## 添加、更新、删除教师
-![添加教师截图](Image/addTeacher.png)
-![添加教师截图](Image/addTeacherInfo.png)
-![更新教师截图](Image/updateTeacher.png)
-![删除教师截图](Image/deleteTeacher.png)
-![删除教师截图](Image/deleteTeacherInfo.png)
+
 
 ## 课程管理
-![课程管理截图](Image/section.png)
+![课程管理截图](https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/%E8%AF%BE%E7%A8%8B%E7%AE%A1%E7%90%86.JPG)
 
-## 添加、删除课程
-![添加课程截图](Image/addCourse.png)
-![添加课程截图](Image/addCourseInfo.png)
-![删除课程截图](Image/deleteCourseInfo.png)
-![删除课程截图](Image/deleteCourseInfo.png)
+
 

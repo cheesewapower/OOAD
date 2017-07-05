@@ -2,7 +2,7 @@
 选课系统
 
 ## 项目结构
-![分层结构图]()
+![分层结构图](images/%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84.JPG)
 
 ## ER图
 ![](images/er.JPG)
@@ -13,7 +13,7 @@
 
 
 ## 登录
-![登录界面截图](Image/login.png)
+![登录界面截图](images/%E7%99%BB%E5%BD%95.JPG)
 
 ## 选课界面
 ![选课界面截图](https://github.com/cheesewapower/OOAD/blob/master/studentSystem/images/%E9%80%89%E8%AF%BE1.JPG)
